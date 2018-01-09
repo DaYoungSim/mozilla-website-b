@@ -5,7 +5,7 @@ p {
 h1 {
 	color: blue;
 	width: 500px;
-	border: 1px solid black;
+	border: 3px solid blue;
 }
 
 .quote{
@@ -14,5 +14,5 @@ h1 {
 
 #mainquote{
 	color: green;
-	border: 2px solde green;
+	border: 2px solid green;
 }
