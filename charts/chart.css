@@ -1,0 +1,64 @@
+body {
+  font: 10px sans-serif;
+}
+
+.chart {
+  font: 15px sans-serif;
+  max-width: 1000px;
+  text-align: center;
+}
+
+#apple-stock-chart .axis path,
+#apple-stock-chart .axis line {
+  fill: none;
+  stroke: #005;
+  shape-rendering: crispEdges;
+}
+
+#apple-stock-chart .x.axis path {
+  display: none;
+  width: 20px;
+}
+
+#apple-stock-chart .line {
+  fill: blue;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+#apple-stock-chart .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#apple-stock-chart .focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: none;
+  stroke: steelblue;
+}
